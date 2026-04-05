@@ -59,6 +59,10 @@ const Navbar = ({ activePage, onNavigate }: NavbarProps) => {
               <Icon name="ShoppingCart" size={15} />
               Корзина
             </button>
+            <button className="flex items-center gap-2 px-4 py-2 rounded bg-[hsl(var(--primary))] text-white text-sm font-medium hover:opacity-90 transition-opacity">
+              <Icon name="PackagePlus" size={15} />
+              Оформить заказ
+            </button>
           </div>
 
           {/* Mobile menu */}
