@@ -24,11 +24,10 @@ const Navbar = ({ activePage, onNavigate }: NavbarProps) => {
           {/* Logo */}
           <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => onNavigate("delivery")}>
             <div className="w-8 h-8 rounded bg-[hsl(var(--primary))] flex items-center justify-center">
-              <span className="text-white text-xs font-bold tracking-wider">M</span>
+              <span className="text-white text-xs font-bold tracking-wider">С</span>
             </div>
             <div>
-              <span className="text-[hsl(var(--primary))] font-semibold text-lg tracking-tight">Meridian</span>
-              <span className="hidden sm:inline text-[hsl(var(--gold))] text-xs font-medium ml-1.5 uppercase tracking-widest">Market</span>
+              <span className="text-[hsl(var(--primary))] font-semibold text-lg tracking-tight">СДЭК</span>
             </div>
           </div>
 

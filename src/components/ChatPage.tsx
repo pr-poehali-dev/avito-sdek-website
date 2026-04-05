@@ -28,7 +28,7 @@ const initialMessages = [
   {
     id: 1,
     from: "support",
-    text: "Добрый день! Я Алина, специалист поддержки Meridian. Чем могу помочь?",
+    text: "Добрый день! Я Алина, специалист поддержки СДЭК. Чем могу помочь?",
     time: "14:22",
     avatar: "А",
   },
@@ -136,7 +136,7 @@ const ChatPage = () => {
           <div className="flex items-center gap-3 px-5 py-4 border-b border-[hsl(var(--border))] bg-[hsl(var(--primary))]">
             <div className="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-[hsl(var(--primary))] font-bold text-sm">А</div>
             <div>
-              <p className="text-sm font-semibold text-white">Алина · Поддержка Meridian</p>
+              <p className="text-sm font-semibold text-white">Алина · Поддержка СДЭК</p>
               <div className="flex items-center gap-1.5">
                 <div className="w-1.5 h-1.5 rounded-full bg-emerald-400"></div>
                 <p className="text-xs text-white/70">Онлайн</p>
